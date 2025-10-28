@@ -73,7 +73,7 @@ public void MoveSnake()
 
 Growing was even easier. The `Grow()` function just calls `snakeBody.InsertAtEnd(node_name)`, which is a simple O(1) operation because my `LinkedListProperties` tracks the tail. No array resizing, no `List.Insert()`. Just pure node-pointer magic.
 
-*[Insert YouTube video snippet here]*
+*(https://youtu.be/XzsWItYXVYk)*
 
 ---
 
@@ -124,7 +124,7 @@ public void SwitchTurn()
 ```
 This felt so much more efficient than a `Remove` followed by an `Insert`.
 
-*[Insert YouTube video snippet here]*
+*[(https://youtu.be/jwj8rmIymLs)]*
 
 ---
 
@@ -213,7 +213,7 @@ void ProcessBattleTick()
 3. That soldier executes their turn (`ExecuteSoldierTurn()`).
 4. Then—and this is the key—it calls `faction.playerCommandQueue.Insert(actingNode)` to put the soldier back in the queue for their next turn.
 
-*[Insert YouTube video snippet here]*
+*(https://youtu.be/lA8zzIRYKw8)*
 
 ---
 
@@ -227,4 +227,4 @@ Building these games took data structures from "abstract textbook theory" to "pr
 
 If you're struggling with DSA as a gamedev, my advice is to **stop reading and start building**. Pick a simple game. You'll quickly find that you don't just *want* to use a data structure, you *have* to. And that's when you'll finally understand it.
 
-You can find the full devlog videos **[here]** and the source code for all three games **[here on GitHub]**.
+You can find the full devlog videos **[here - (https://www.youtube.com/playlist?list=PLsi1niR4J6B3G9cIKhVsNFhJVHjN3EflD)]** and the source code for all three games **[here on GitHub]**.
